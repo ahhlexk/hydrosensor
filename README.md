@@ -8,13 +8,13 @@ so also run this file.]
 [To change configuration/settings: ]
 $ python config.py
 
-[In the config.py, GLOBAL CONSTANT TEMPERATURE VARIABLES is settings for temperature 
-max, min and seconds to wait after alert. Make sure to use floating point and not 
+[In the config.py, GLOBAL CONSTANT TEMPERATURE VARIABLES is settings for temperature
+max, min and seconds to wait after alert. Make sure to use floating point and not
 whole number. Ex: _MAX_TEMPERATURE = 90.0]
 
-[In the config.py, GLOBAL CONSTANT SMTP VARIABLES is settings for smtp service. 
+[In the config.py, GLOBAL CONSTANT SMTP VARIABLES is settings for smtp service.
 If you want to add more receipants, just include comma after email (nospaces).
-Ex: 'philipkim337@gmail.com,philipdanielkim@gmail.com']
+Ex: 'alex_kim@gmail.com,alexjkim@gmail.com']
 --------------------------------------------------------------------------------------
 [Main program: temperature_sensor.py]
 [Daily email (22:00): daily_report.py]
